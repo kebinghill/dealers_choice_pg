@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: rgb(77, 194, 112);
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  padding: 1.5rem;
+  padding-left: 0.5rem;
+  flex-direction: column;
+}
+
+a {
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 29, 36);
+  color: azure;
+  padding: 1.5rem;
+}
+
+h1 > a {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 29, 36);
+  color: azure;
+}
