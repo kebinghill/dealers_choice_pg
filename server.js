@@ -36,7 +36,7 @@ app.get('/', async (req, res, next) => {
       </html>
     `);
   } catch (err) {
-    next();
+    console.log(err);
   }
 });
 
@@ -82,7 +82,7 @@ app.get('/companies/:id', async (req, res, next) => {
       </html>
     `);
   } catch (err) {
-    next();
+    console.log(err);
   }
 });
 
